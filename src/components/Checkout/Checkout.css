@@ -1,0 +1,21 @@
+.cartcontainer{
+    padding: 150px 0 80px;
+    min-height: 400px;
+}
+
+.message{
+    color:#116029;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.message2{
+    color:#116029;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.CheckTitle{ 
+    font-size: 25px;
+    margin-bottom: 10px;
+}

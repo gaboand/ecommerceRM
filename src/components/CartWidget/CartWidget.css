@@ -1,0 +1,22 @@
+.Cart{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.CartNumber{
+    font-size: 12px;
+    color: rgb(216, 214, 214);
+    background-color: red;
+    width: 20px;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: 700;
+}
+
+.CartContainer {
+    display: flex;
+    gap: 10px;
+    align-content: center;
+}
+

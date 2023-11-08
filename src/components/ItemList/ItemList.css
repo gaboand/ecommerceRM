@@ -1,0 +1,9 @@
+.ListGroup{
+    margin: 0px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+    justify-content: center;
+    padding: 40px 0 30px;
+    min-height: 400px;
+}

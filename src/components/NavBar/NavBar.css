@@ -1,0 +1,50 @@
+#navContainer{
+    padding: 5PX; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    position:fixed;
+    width: 100vw;
+}
+
+#title{
+    padding: 10px;
+    font-size: 40px;
+}
+
+.linkContainer{
+   background-color: transparent;
+   border: 0;
+   display: flex;
+   gap: 15px;    
+   color: #f8f8f8;
+   
+}
+
+.linkOption{
+    font-size: 20px;
+}
+
+.linkOption:hover{
+    font-weight: bold;
+}
+
+#Navbar{
+    padding: 5px;
+    font-size: 20px;
+}
+
+
+.cartImg{
+    height: 20px;
+    width: 20px;
+}
+
+.logorm{
+    width: 200px;
+    height: 80px;
+
+}
+

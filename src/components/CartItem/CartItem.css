@@ -1,0 +1,28 @@
+.CartItem{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    
+    
+}
+
+.cartButton {
+    display: flex;
+    justify-content: space-around;
+}
+
+.CartItem-details{
+    display: flex;
+    width: 350px;
+}
+
+.CartItem-quantity{
+    display: flex;
+    ;
+}
+
+.CartItem-remove{
+    background-color: red;
+    color:white;
+    border: 0;
+}
