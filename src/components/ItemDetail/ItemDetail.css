@@ -31,3 +31,41 @@
 .Infob{
     font-size: 16px;
 }
+
+.OptionB{
+    width: 200px; 
+    background-color: rgb(51, 51, 51);
+    color: #efeeee;
+    font-size: 12px;
+    border: 0;
+    padding: 5px 5px;
+    align-self: center;
+    
+}
+
+@media (max-width: 768px) {
+    .CardItemDetail{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .ItemImg2{
+        height: 200px;
+        width: 140px;
+    }
+
+    .OptionB{
+        width: 150px; 
+        background-color: rgb(51, 51, 51);
+        color: #efeeee;
+        font-size: 12px;
+        border: 0;
+        padding: 5px 5px;
+        align-self: center;
+        
+    }
+
+}

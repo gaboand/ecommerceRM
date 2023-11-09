@@ -17,7 +17,7 @@ const CheckoutForm = ({onConfirm}) => {
     } 
 
 return(
-   <div className="Container">
+   <div className="ContainerForm">
      <form onSubmit={handleConfirm} className='Form'>
         <label className="Label">Nombre</label>
            <input className='Input' type="text" value={name} onChange={({target}) => setName(target.value)} />

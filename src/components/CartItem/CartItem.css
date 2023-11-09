@@ -26,3 +26,17 @@
     color:white;
     border: 0;
 }
+
+@media (max-width: 768px) {
+    .CartItem{
+        display: flex;
+        flex-direction: column;
+        width: 280px;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 16px;
+        border: solid 1px grey;
+        padding: 10px;
+        gap: 5px;
+    }
+}

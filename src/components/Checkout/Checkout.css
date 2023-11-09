@@ -1,6 +1,10 @@
-.cartcontainer{
+.cartcontainerB{
     padding: 150px 0 80px;
     min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .message{
@@ -18,4 +22,13 @@
 .CheckTitle{ 
     font-size: 25px;
     margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .message{
+        color:#116029;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
 }

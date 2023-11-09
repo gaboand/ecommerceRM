@@ -11,3 +11,15 @@
 .containerprincipal{
     padding: 80px 20px 0;
 }
+
+@media (max-width: 768px) {
+    .banner1{
+        width: 100%;
+        height: 120px;
+    }
+
+    .containerprincipal{
+        padding: 110px 20px 0;
+    }
+
+}

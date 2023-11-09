@@ -7,3 +7,15 @@
     padding: 40px 0 30px;
     min-height: 400px;
 }
+
+@media (max-width: 768px) {
+    .ListGroup{
+        margin: 0px 10px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 35px;
+        justify-content: center;
+        padding: 40px 0 30px;
+        min-height: 400px;
+    }
+}

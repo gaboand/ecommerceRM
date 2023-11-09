@@ -5,7 +5,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const NavBar = () => {
     return (
-        <nav className="hero is-link" id="navContainer">
+        <nav className="hero is-link" id="navContainer" >
             <Link to={`/`}>
             <img id="title" src="https://www.redmutual.com.ar/wp-content/uploads/2019/03/logo.png" alt="Red Mutual" className="logorm"/>
             </Link>   
